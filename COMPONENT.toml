@@ -3,7 +3,7 @@ name = "SigmaOS-iso-tests"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "iso-tests component"
+description = "ISO smoke tests: boot, install, desktop, app, and recovery test automation"
 upstream = []
 
 [contract]
