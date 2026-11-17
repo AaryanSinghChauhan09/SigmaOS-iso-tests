@@ -1,16 +1,16 @@
 [component]
 name = "SigmaOS-iso-tests"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
-description = "ISO smoke tests: boot, install, desktop, app, and recovery test automation"
+description = "ISO image validation and boot testing framework with integrity checks"
 upstream = []
 
 [contract]
-provides = ["component"]
+provides = ["iso-validation", "boot-testing", "image-integrity"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
-test_evidence = "Compiles and passes AAA unit tests"
-next_milestone = "Hardware and runtime integration"
+status = "Implemented"
+test_evidence = "cargo test --offline unit tests pass"
+next_milestone = "QEMU boot automation and automated test reporting"

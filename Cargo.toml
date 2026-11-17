@@ -1,0 +1,13 @@
+[package]
+name = "sigmaos-iso-tests"
+version = "0.1.0"
+edition = "2021"
+description = "ISO image validation and boot testing framework for SigmaOS"
+license = "MIT"
+repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-iso-tests"
+
+[dependencies]
+
+[lib]
+name = "sigmaos_iso_tests"
+path = "src/lib.rs"
